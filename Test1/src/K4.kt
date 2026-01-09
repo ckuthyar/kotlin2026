@@ -44,4 +44,12 @@ fun main(){
     }
     println(isFive)
 
+    val trafficLight="Red"
+    val trafficAction= when{
+        trafficLight=="Red" -> "STOP"
+        trafficLight=="Green" -> "GO"
+        else -> "UNKNOWN"
+    }
+    println("TrafficAction $trafficAction")
+
 }
