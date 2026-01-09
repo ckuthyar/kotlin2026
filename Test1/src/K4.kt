@@ -1,0 +1,19 @@
+fun main(){
+    val even=listOf(2,4,6,8)
+    val odd=listOf(1,3,5,7)
+    val count1=even.count()
+    val count2=odd.count()
+    println(count1+count2)
+
+    val supported=setOf("HTTP","HTTPS","FTP")
+    val requested="smtp"
+    val isSupported=supported.contains(requested)
+    println("$requested is supported: $isSupported")
+
+    val digits=mapOf(1 to "One", 2 to "Two",3 to "Three")
+    val num1=2
+    val words1=digits[num1]
+    print("$num1 is $words1")
+
+
+}
