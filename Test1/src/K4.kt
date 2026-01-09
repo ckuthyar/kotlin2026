@@ -29,4 +29,19 @@ fun main(){
     if(age>18) canVote=true else canVote=false
     if(canVote) println("can Vote") else println("cannot Vote")
 
+    val num2=5
+    when (num2){
+        4 ->println("four")
+        5 ->println("five")
+        6 ->println("six")
+        else ->println("unknown")
+    }
+
+    var isFive=false
+    isFive=when(num2){
+        5 ->true
+        else ->false
+    }
+    println(isFive)
+
 }
