@@ -15,7 +15,7 @@ fun main(){
     val words1=digits[num1]
     println("$num1 is $words1")
 
-    val age=10
+    val age=20
     var canVote=false
     if (age>18){
         canVote=true
@@ -25,5 +25,8 @@ fun main(){
         canVote=false
         println("cannot vote")
     }
+
+    if(age>18) canVote=true else canVote=false
+    if(canVote) println("can Vote") else println("cannot Vote")
 
 }
