@@ -13,7 +13,17 @@ fun main(){
     val digits=mapOf(1 to "One", 2 to "Two",3 to "Three")
     val num1=2
     val words1=digits[num1]
-    print("$num1 is $words1")
+    println("$num1 is $words1")
 
+    val age=10
+    var canVote=false
+    if (age>18){
+        canVote=true
+        println("can vote")
+    }
+    else{
+        canVote=false
+        println("cannot vote")
+    }
 
 }
