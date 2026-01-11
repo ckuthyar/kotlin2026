@@ -4,4 +4,6 @@ fun main(){
     var arr3=arrayOf(2,4,6)
     println(arr1.contentEquals(arr2))
     println(arr2.contentEquals(arr3))
+    println(arr1 contentEquals arr2)
+    println(arr1 contentEquals arr3)
 }
